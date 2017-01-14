@@ -455,7 +455,7 @@ class SlideshowPluginSlideshowSettingsHandler
 				'slidesPerView'               => __('Number of slides to fit into one slide', 'slideshow-jquery-image-gallery'),
 				'maxWidth'                    => __('Maximum width. When maximum width is 0, maximum width is ignored', 'slideshow-jquery-image-gallery'),
 				'aspectRatio'                 => sprintf('<a href="' . str_replace('%', '%%', __('http://en.wikipedia.org/wiki/Aspect_ratio_(image)', 'slideshow-jquery-image-gallery')) . '" title="' . __('More info', 'slideshow-jquery-image-gallery') . '" target="_blank">' . __('Proportional relationship%s between slideshow\'s width and height (width:height)', 'slideshow-jquery-image-gallery'), '</a>'),
-				'height'                      => __('Slideshow\'s height', 'slideshow-jquery-image-gallery'),
+				'height'                      => __('Slideshow\'s height. When set to 0, slideshow will fill container. Container has to be fixed height', 'slideshow-jquery-image-gallery'),
 				'imageBehaviour'              => __('Image behaviour', 'slideshow-jquery-image-gallery'),
 				'preserveSlideshowDimensions' => __('Shrink slideshow\'s height when width shrinks', 'slideshow-jquery-image-gallery'),
 				'enableResponsiveness'        => __('Enable responsiveness (Shrink slideshow\'s width when page\'s width shrinks)', 'slideshow-jquery-image-gallery'),

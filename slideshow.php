@@ -1,7 +1,7 @@
 <?php
 /*
- Plugin Name: Slideshow
- Plugin URI: http://wordpress.org/extend/plugins/slideshow-jquery-image-gallery/
+ Plugin Name: Slideshow (Mod)
+ Plugin URI: http://relume.co.uk
  Description: The slideshow plugin is easily deployable on your website. Add any image that has already been uploaded to add to your slideshow, add text slides, or even add a video. Options and styles are customizable for every single slideshow on your website.
  Version: 2.3.1
  Requires at least: 3.5

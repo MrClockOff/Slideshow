@@ -70,6 +70,11 @@
 			this.$container.css('height', Math.round(height));
 			this.$content.css('height', Math.round(height) - (this.$content.outerHeight(true) - this.$content.height()));
 		}
+		if (this.settings['height'] == 0){
+			var height = $parentElement.height();
+			this.$container.css('height', Math.round(height));
+			this.$content.css('height', Math.round(height));
+		}
 		else
 		{
 			this.$container.css('height', Math.round(this.settings['height']));
